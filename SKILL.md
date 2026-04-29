@@ -1,6 +1,6 @@
 ﻿---
 name: wechat-post-skill
-description: User-authorized WeChat Official Account article workflow: topic selection, drafting, editing, image planning, pre-publish review, and publishing to the user\'s own WeChat draft box. Use when the user asks to 发公众号, 写公众号文章, 做公众号推送, or 发布草稿箱. Requires user-provided account access; never stores credentials or publishes without explicit user direction.
+description: User-authorized WeChat Official Account article workflow: topic selection, drafting, editing, image planning, pre-publish review, and publishing to the user's own WeChat draft box. Use when the user asks to 发公众号, 写公众号文章, 做公众号推送, or 发布草稿箱. Requires user-provided account access; never stores credentials or publishes without explicit user direction.
 ---
 
 # WeChat Post Skill
@@ -87,5 +87,6 @@ bun "<baoyu-post-to-wechat>/scripts/wechat-api.ts" article.md --theme <theme> --
 - `references/content-playbook.md` — article structure, title/opening/ending patterns.
 - `references/gemini-browser-notes.md` — operational notes for browser-based Gemini image generation.
 - `references/publishing-notes.md` — WeChat draft publishing checks and common failures.
+
 
 
