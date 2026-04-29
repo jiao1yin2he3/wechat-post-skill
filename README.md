@@ -1,4 +1,4 @@
-# WeChat Official Account Workflow Skill / 微信公众号全流程发布技能
+﻿# WeChat Official Account Workflow Skill / 微信公众号全流程发布技能
 
 [English](#english) | [中文](#中文)
 
@@ -109,7 +109,7 @@ $env:WECHAT_APP_SECRET="your-app-secret"
 | 工具/技能 | 用途 | 是否必需 |
 |---|---|---|
 | `baoyu-post-to-wechat` | 把 Markdown/HTML 文章发布到微信公众号草稿箱 | 真正发布时推荐必备 |
-| `gemini-browser-image` | 用 Chrome + Gemini 生成封面图/正文配图 | 需要 Gemini 配图时推荐 |
+| [`gemini-browser-image`](https://github.com/jiao1yin2he3/gemini-browser-image-skill) | 用 Chrome + Gemini 生成封面图/正文配图 | 需要 Gemini 配图时推荐 |
 | `ai-humanizer` | 检测并降低文章 AI 味 | 推荐 |
 | `bun` | 运行部分微信公众号发布脚本 | 使用 `baoyu-post-to-wechat` API 脚本时需要 |
 | Chrome | 浏览器配图或浏览器发布兜底 | 使用浏览器流程时需要 |
@@ -205,9 +205,6 @@ Agent 会根据 `SKILL.md` 执行完整流程。
 
 - [`baoyu-post-to-wechat`](https://github.com/JimLiu/baoyu-skills)  
   用于微信公众号文章发布、Markdown 转微信图文、API/浏览器发布能力。
-
-- `gemini-browser-image`  
-  用于通过 Chrome 浏览器和 Gemini 生成公众号封面图、正文配图。
 
 - `ai-humanizer`  
   用于识别和降低 AI 写作痕迹，让文章更像真人编辑写出来的内容。
@@ -320,7 +317,7 @@ This skill orchestrates the workflow. Publishing and image generation can be han
 | Tool/Skill | Purpose | Required? |
 |---|---|---|
 | `baoyu-post-to-wechat` | Publish Markdown/HTML articles to the WeChat draft box | Recommended for real publishing |
-| `gemini-browser-image` | Generate cover/body images with Chrome + Gemini | Recommended if using Gemini images |
+| [`gemini-browser-image`](https://github.com/jiao1yin2he3/gemini-browser-image-skill) | Generate cover/body images with Chrome + Gemini | Recommended if using Gemini images |
 | `ai-humanizer` | Detect and reduce AI-like writing patterns | Recommended |
 | `bun` | Run some WeChat publishing scripts | Needed for certain script workflows |
 | Chrome | Browser image generation or browser publishing fallback | Needed for browser workflows |
@@ -417,11 +414,9 @@ Special thanks to / inspired by:
 - [`baoyu-post-to-wechat`](https://github.com/JimLiu/baoyu-skills)  
   For WeChat Official Account article publishing, Markdown-to-WeChat conversion, and API/browser publishing workflows.
 
-- `gemini-browser-image`  
-  For generating WeChat cover and body images through Chrome and Gemini.
-
 - `ai-humanizer`  
   For detecting and reducing AI-like writing patterns.
 
 - OpenClaw AgentSkill mechanism  
   For making operational knowledge reusable as triggerable, portable skills.
+
