@@ -1,4 +1,4 @@
-﻿# WeChat Official Account Workflow Skill / 微信公众号全流程发布技能
+﻿# WeChat Post Skill / 微信公众号发布技能
 
 [English](#english) | [中文](#中文)
 
@@ -24,7 +24,7 @@
 ### 这个技能包含什么？
 
 ```text
-wechat-official-account-workflow/
+wechat-post-skill/
 ├── SKILL.md
 ├── README.md
 ├── .gitignore
@@ -146,7 +146,7 @@ $env:WECHAT_APP_SECRET="your-app-secret"
 把本仓库复制到你的技能目录，例如：
 
 ```powershell
-git clone https://github.com/jiao1yin2he3/wechat-official-account-workflow-skill.git
+git clone https://github.com/jiao1yin2he3/wechat-post-skill.git
 ```
 
 然后将目录放入你的 AgentSkill 搜索路径中。
@@ -154,7 +154,7 @@ git clone https://github.com/jiao1yin2he3/wechat-official-account-workflow-skill
 在 OpenClaw 中，可放到类似：
 
 ```text
-~/.openclaw/skills/wechat-official-account-workflow/
+~/.openclaw/skills/wechat-post-skill/
 ```
 
 具体路径取决于你的 OpenClaw/Agent 配置。
@@ -234,7 +234,7 @@ It is useful for:
 ### What is included?
 
 ```text
-wechat-official-account-workflow/
+wechat-post-skill/
 ├── SKILL.md
 ├── README.md
 ├── .gitignore
@@ -354,7 +354,7 @@ Before publishing, verify:
 Clone this repository:
 
 ```powershell
-git clone https://github.com/jiao1yin2he3/wechat-official-account-workflow-skill.git
+git clone https://github.com/jiao1yin2he3/wechat-post-skill.git
 ```
 
 Then place the folder in your AgentSkill search path.
@@ -362,7 +362,7 @@ Then place the folder in your AgentSkill search path.
 For OpenClaw, this may look like:
 
 ```text
-~/.openclaw/skills/wechat-official-account-workflow/
+~/.openclaw/skills/wechat-post-skill/
 ```
 
 The exact path depends on your OpenClaw/agent configuration.
@@ -419,4 +419,5 @@ Special thanks to / inspired by:
 
 - OpenClaw AgentSkill mechanism  
   For making operational knowledge reusable as triggerable, portable skills.
+
 

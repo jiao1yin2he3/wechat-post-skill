@@ -1,9 +1,9 @@
----
-name: wechat-official-account-workflow
+﻿---
+name: wechat-post-skill
 description: End-to-end WeChat Official Account (微信公众号) publishing workflow for high-traffic posts: topic selection, article drafting, humanization, AI cover/body images, self-review, draft publishing, and cleanup. Use when the user asks to 发公众号, 写公众号文章, 做公众号推送, 发布草稿箱, or package/operate a complete WeChat article workflow.
 ---
 
-# WeChat Official Account Workflow
+# WeChat Post Skill
 
 Use this skill to run a complete WeChat Official Account article pipeline, not just publish Markdown. The goal is a polished draft in the WeChat Official Account draft box.
 
@@ -79,3 +79,4 @@ bun "<baoyu-post-to-wechat>/scripts/wechat-api.ts" article.md --theme <theme> --
 - `references/content-playbook.md` — article structure, title/opening/ending patterns.
 - `references/gemini-browser-notes.md` — operational notes for browser-based Gemini image generation.
 - `references/publishing-notes.md` — WeChat draft publishing checks and common failures.
+
